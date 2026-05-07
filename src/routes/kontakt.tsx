@@ -46,7 +46,7 @@ function Kontakt() {
                 </>
               );
               return c.href ? (
-                <a key={c.label} href={c.href} className="card-luxe p-6 flex items-start gap-4 hover:border-[var(--gold)]/55 block">{inner}</a>
+                <a key={c.label} href={c.href} className="card-luxe p-6 flex items-start gap-4 hover:border-[var(--gold)]/55">{inner}</a>
               ) : (
                 <div key={c.label} className="card-luxe p-6 flex items-start gap-4">{inner}</div>
               );
