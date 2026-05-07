@@ -31,8 +31,7 @@ export function Reveal({
     return () => io.disconnect();
   }, [delay]);
 
-  // @ts-expect-error dynamic tag
-  return <Tag ref={ref} className={`reveal ${className}`}>{children}</Tag>;
+  return <Tag ref={ref as never} className={`reveal ${className}`}>{children}</Tag>;
 }
 
 export function ScrollProgress() {
