@@ -76,6 +76,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Profesjonalne studio detailingu samochodowego w Poznaniu. Mycie, korekta lakieru, powłoki ceramiczne." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Diamond Auto Myjnia – Studio Detailingu Poznań" },
+      { name: "twitter:title", content: "Diamond Auto Myjnia – Studio Detailingu Poznań" },
+      { property: "og:description", content: "Profesjonalne studio detailingu samochodowego w Poznaniu. Mycie, korekta lakieru, powłoki ceramiczne." },
+      { name: "twitter:description", content: "Profesjonalne studio detailingu samochodowego w Poznaniu. Mycie, korekta lakieru, powłoki ceramiczne." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c9437359-82f8-46f0-886d-b39d4003a0c2/id-preview-ee92dc17--5186bca8-4504-4481-a942-e60fe42e7aa9.lovable.app-1778152218144.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c9437359-82f8-46f0-886d-b39d4003a0c2/id-preview-ee92dc17--5186bca8-4504-4481-a942-e60fe42e7aa9.lovable.app-1778152218144.png" },
     ],
     links: [
       {
